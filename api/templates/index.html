@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Search App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>News Search</h1>
+        <input type="text" id="keyword" placeholder="Enter keyword">
+        <button id="searchBtn">Search</button>
+        <div id="results"></div>
+    </div>
+    <script src="{% static 'scripts.js' %}"></script>
+</body>
+</html>

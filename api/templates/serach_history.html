@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search History</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Search History</h1>
+        <ul id="historyList">
+            <!-- Search history items will be added here dynamically -->
+        </ul>
+    </div>
+    <script src="{% static 'scripts.js' %}"></script>
+    <script>
+        // Call a function to load search history from the server
+        // and populate the historyList element.
+    </script>
+</body>
+</html>

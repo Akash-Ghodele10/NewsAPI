@@ -1,0 +1,10 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+venv/
+env/
+db.sqlite3
+.vscode/
+.idea/
+local_settings.py
+*.log

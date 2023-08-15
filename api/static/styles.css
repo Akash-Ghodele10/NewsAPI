@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Search Form Styles */
+#keyword {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Article Styles */
+.article {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.article h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.article p {
+    margin: 10px 0;
+}
+
+.article a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+}
